@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+}
+
+footer {
+    width: calc(100% - 2em);
+    background-color: #73ba5b;
+    padding: 1em;
+}
